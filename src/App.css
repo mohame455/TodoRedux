@@ -1,38 +1,103 @@
-.App {
+.section1{
+  margin-left: 300px;
+  border: 1px solid transparent;
+  width: 800px;
+  background-color: #35495d;
+  height: 200px;
+}
+.text{
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 25px; 
+  color:white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#input{
+  width: 700px;
+  height: 70px;
+  padding-left: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#btn{
+  width: 66px;
+  height: 75px;
+  background-color: green;
+  border: transparent;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-item{
+  /* border: 1px solid red; */
+  width: 800px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  background-color: #2abb9c;
+  justify-content: space-around;
+}
+.btn-item-check{
+  border: 1px solid grey;
+  width: 800px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  background-color: white;
+  justify-content: space-around;
+}
+.text-item{
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 10px; 
+  color:white;
+  padding-left: 15px;
+}
+.fa-circle{
+  /* border: 1px solid red; */
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+.part1{
+  /* border: 1px solid blue; */
+  width: 600px;
+}
+.part2{
+  /* border: 1px solid black; */
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.fa-edit{
+  /* border: 1px solid red; */
+  background-color: green;
+  color:white;
+  width: 30px;
+  height: 30px;
+  align-content: center;
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-trash-alt{
+  background-color: red;
+  color:white;
+  width: 30px;
+  height: 30px;
+  align-content: center;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.line-th{
+  text-decoration: line-through;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 10px; 
+  color: grey;
+  padding-left: 15px;
+}
+.fa-check-circle{
+  color: green;
 }
